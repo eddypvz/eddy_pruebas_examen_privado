@@ -49,7 +49,7 @@ include_once('header.php');
                         </div>
                         <div class="col-6">
                             <label class="mb-2">Correo electrónico</label>
-                            <input class="form-control" type="email" id="correoElectronico" placeholder="Escribe aquí" required="" value="" maxlength="16"/>
+                            <input class="form-control" type="email" id="correoElectronico" placeholder="Escribe aquí" required="" value=""/>
                         </div>
                         <div class="col-6">
                             <label class="mb-2">Número de tarjeta</label>
