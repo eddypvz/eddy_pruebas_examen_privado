@@ -10,7 +10,7 @@ include_once('header.php');
                         <h1 class="hero-title">¡Nuevo! Portal de atención al vecino</h1>
                         <p class="hero-desc">Presentamos el nuevo portal de atención al vecino (PAV), un portal en el cual se encuentran centralizadas las atenciones que necesitas relacionadas con la Municipalidad de Guatemala. <br> Este no es un sitio real, únicamente es un demo</p>
                         <div class="hero-action">
-                            <a class="btn btn--primary scroll-to px-3" href="#services">Ver servicios disponibles</a>
+                            <a class="btn btn--primary px-3" href="#services">Ver servicios disponibles</a>
                         </div>
                     </div>
                 </div>
