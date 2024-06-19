@@ -66,7 +66,7 @@ include_once('header.php');
                         <h3>Pago de IUSI</h3>
                         <p>Consulta tus impuestos, paga en línea, consulta tu historial y mucho más</p>
                         <div class="text-center">
-                            <a class="btn btn--primary p-2 mt-4" href="#">Entrar</a>
+                            <a class="btn btn--primary p-2 mt-4" href="#">Muy Pronto</a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ include_once('header.php');
                         <h3>EMETRA</h3>
                         <p>Verifica tus multas, paga en línea, solicita exoneraciones, etc.</p>
                         <div class="text-center">
-                            <a class="btn btn--primary p-2 mt-4" href="#">Entrar</a>
+                            <a class="btn btn--primary p-2 mt-4" href="#">Muy Pronto</a>
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ include_once('header.php');
                         <h3>Bomberos Municipales</h3>
                         <p>Reporta incidentes, observa alertas y recomendaciones</p>
                         <div class="text-center">
-                            <a class="btn btn--primary p-2 mt-4" href="#">Entrar</a>
+                            <a class="btn btn--primary p-2 mt-4" href="#">Muy Pronto</a>
                         </div>
                     </div>
                 </div>
@@ -111,7 +111,7 @@ include_once('header.php');
                         <h3>Policía Municipal</h3>
                         <p>Reporta incidentes a la policía, observa recomendaciones y noticias</p>
                         <div class="text-center">
-                            <a class="btn btn--primary p-2 mt-4" href="#">Entrar</a>
+                            <a class="btn btn--primary p-2 mt-4" href="#">Muy Pronto</a>
                         </div>
                     </div>
                 </div>

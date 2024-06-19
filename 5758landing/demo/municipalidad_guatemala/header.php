@@ -13,10 +13,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&amp;family=Rubik:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap" rel="stylesheet"/>
     <!--  Stylesheets-->
     <link href="assets/css/vendor.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="assets/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
 </head>
 <body class="body-scroll">
+
+<div class="cargando">
+    <div class="cargandoContainer">
+        <img src="assets/images/logo.png" class="animate__animated animate__tada animate__infinite">
+        <div class="mt-4">
+            Cargando
+        </div>
+    </div>
+</div>
 <!-- Document Wrapper-->
 <div class="wrapper clearfix" id="wrapperParallax">
     <!--

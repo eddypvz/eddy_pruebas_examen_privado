@@ -84,6 +84,8 @@ Footer
 -->
 <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
 <script src="assets/js/vendor.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="assets/js/functions.js"></script>
+<script src="assets/js/scripts.js"></script>
 </body>
 </html>

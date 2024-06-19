@@ -1725,7 +1725,7 @@ textarea.form-control {
 /* Placeholder */
 .input-group {
 	border-radius   : 0;
-	border          : 1px solid grey;
+	/*border          : 1px solid grey;*/
 	background-color: transparent;
 	overflow        : hidden;
 	padding         : 3px;
@@ -4994,7 +4994,7 @@ textarea.form-control {
 }
 
 .iconoServicio {
-	color: var(--global--color-primary);;
+	color: var(--global--color-primary);
 	font-size: 5em;
 }
 
@@ -5005,4 +5005,36 @@ textarea.form-control {
 
 .pagoContainer {
 	margin-top: 10vh;
+}
+
+.text-primary {
+	color: var(--global--color-primary)!important;
+}
+
+.cargando {
+	background: rgba(0, 0, 0, 0.51);
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999!important;
+	display: none;
+}
+.cargandoContainer{
+	background: white;
+	padding: 3em 4em;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	text-align: center;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.cargandoContainer img{
+	max-width: 50px;
 }
