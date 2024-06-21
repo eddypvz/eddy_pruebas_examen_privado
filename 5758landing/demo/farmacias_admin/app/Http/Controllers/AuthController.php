@@ -391,9 +391,6 @@ class AuthController extends Controller {
         $telefono = $request->get('telefono');
         $telefono = str_replace('-', '', $telefono);
         $telefono = str_replace(' ', '', $telefono);
-
-
-        $corporativo = $request->get('corporativo');
         $changePassword = $request->get('changePassword');
 
         $sendCredentials = $request->get('sendCredentials');
@@ -443,14 +440,6 @@ class AuthController extends Controller {
             return $this->ResponseError('AUTH-UE934', 'El correo electrónico ya se encuentra configurado en otro usuario');
         }
 
-        // verifico el corporativo
-        if (!empty($corporativo)) {
-            $userTmp = User::where([['corporativo', '=', $corporativo], ['id', '<>', $id]])->first();
-            if (!empty($userTmp)) {
-                return $this->ResponseError('AUTH-UE934', 'El corporativo ya se encuentra configurado en otro usuario');
-            }
-        }
-
         // traigo la configuración
         $configH = new ConfigController();
 
@@ -483,7 +472,6 @@ class AuthController extends Controller {
         $user->name = strip_tags($name);
         $user->email = strip_tags($email);
         $user->telefono = strip_tags($telefono);
-        $user->corporativo = strip_tags($corporativo);
         $user->active = intval($active);
         $user->expiryDays = intval($expiryDays);
         $user->save();
@@ -509,7 +497,6 @@ class AuthController extends Controller {
                 $templateHtml = str_replace('::NAME::', $user->name, $templateHtml);
                 $templateHtml = str_replace('::CORREO::', $user->email, $templateHtml);
                 $templateHtml = str_replace('::TELEFONO::', $user->telefono, $templateHtml);
-                $templateHtml = str_replace('::CORPORATIVO::', $user->corporativo, $templateHtml);
 
                 try {
                     $mg->messages()->send($config->domain ?? '', [
@@ -561,7 +548,6 @@ class AuthController extends Controller {
                 $whatsappCredentialsSend = str_replace('::NAME::', $user->name, $whatsappCredentialsSend);
                 $whatsappCredentialsSend = str_replace('::CORREO::', $user->email, $whatsappCredentialsSend);
                 $whatsappCredentialsSend = str_replace('::TELEFONO::', $user->telefono, $whatsappCredentialsSend);
-                $whatsappCredentialsSend = str_replace('::CORPORATIVO::', $user->corporativo, $whatsappCredentialsSend);
 
                 if (!empty($password)) {
                     $whatsappCredentialsSend = str_replace('::PASSWORD::', $password, $whatsappCredentialsSend);
