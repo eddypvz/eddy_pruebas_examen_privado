@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunk_coreui_coreui_free_vue_admin_template"]=self["webpackChunk_coreui_coreui_free_vue_admin_template"]||[]).push([[709],{3709:function(e,n,t){t.d(n,{createElement:function(){return o},getElement:function(){return u}});const u=e=>null==window?void 0:window.document.querySelector(e),o=e=>null==window?void 0:window.document.createElement(e)}}]);
+//# sourceMappingURL=709.7c931c82.js.map

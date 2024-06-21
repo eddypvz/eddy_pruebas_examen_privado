@@ -1,0 +1,129 @@
+.bodyBackground {
+    background: #ced0d5;
+}
+
+.sidebar-brand {
+    text-align: left;
+    justify-content: left;
+}
+
+.sidebar-brand-full {
+    padding: 1em;
+    max-width: 100px;
+    margin: auto;
+}
+
+.header {
+    border: none !important;
+    /*background: #03bb03;*/
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    border: none !important;
+}
+
+.card-header {
+    border-bottom: 1px #cdcdce;
+    padding: 1em;
+}
+
+.appLogoEdit {
+    padding-top: 1em;
+    text-align: center;
+}
+
+.appLogoEdit img {
+    max-width: 150px;
+}
+
+/*App directorio*/
+.appListContainer {
+    padding: 2em;
+    border: solid 1px #ececec;
+    text-align: center;
+}
+
+.appListContainer .logoContainer {
+    height: 70px;
+    position: relative;
+}
+
+.appListContainer .logo {
+    max-width: 200px;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.appListContainer .description {
+    height: 30px;
+}
+
+.appListContainer hr {
+    border-color: #bdbdbd;
+}
+
+/*.labelAppRol {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #f6f6f6;
+    padding: 1em;
+    text-align: center;
+    border: solid 1px #d3d0d0;
+    cursor: pointer;
+    width: 250px;
+}
+
+.labelAppRol:hover{
+    background: #f1f1f1;
+}
+
+*/
+.labelAppRol img {
+    max-height: 30px;
+}
+
+.scriptAutoIntegration {
+    height: 100px;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-group-items .nav-item {
+    background: #2263b7!important;
+    cursor: pointer;
+}
+
+.icon {
+    color: var(--cui-dark);
+}
+
+.accordion-item__summary {
+    background: #f6f6f6;
+    border: none;
+}
+
+.accordion-list .accordion-item {
+    border: solid 1px #e8e8e8 !important;
+}
+
+.accordion-list .accordion-item--open > .accordion-item__summary {
+    color: var(--cui-primary) !important;
+}
+
+.accordion-list .accordion-item > .accordion-item__summary {
+    font-size: 15px !important;
+}
+
+.accordion-list .accordion-item > .accordion-item__summary:hover {
+    color: var(--cui-primary) !important;
+}
