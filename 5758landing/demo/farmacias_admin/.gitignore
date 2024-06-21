@@ -1,7 +1,5 @@
 /node_modules
 /storage/*.key
-/vendor
-.env
 .env.backup
 .phpunit.result.cache
 docker-compose.override.yml
@@ -43,6 +41,3 @@ yarn-error.log*
 /docs/.temp
 /tmp/*
 /public/tmp/*
-
-#ERLd.js
-ERLd.js
